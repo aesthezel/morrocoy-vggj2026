@@ -80,6 +80,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 2592413335934000613, guid: f58e8ff253d7a1c8db3cd142e1989f51, type: 3}
+    - target: {fileID: 6150674870306606977, guid: 23b613a567197f54485a272e063f1afc, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8973976059776087290, guid: 23b613a567197f54485a272e063f1afc, type: 3}
       propertyPath: m_Name
       value: Fish4 Variant

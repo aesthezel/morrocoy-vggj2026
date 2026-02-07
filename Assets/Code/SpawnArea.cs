@@ -21,6 +21,18 @@ namespace Code
 
         private void Start()
         {
+            if (GameManager.Instance.CurrentState == GameState.Gameplay)
+            {
+                StartSpawning();
+            }
+            else
+            {
+                GameManager.Instance.OnGameStart += StartSpawning;
+            }
+        }
+        
+        private void StartSpawning()
+        {
             InvokeRepeating(nameof(SpawnObject), 1f, spawnRate);
         }
 

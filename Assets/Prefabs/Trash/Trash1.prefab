@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2371737970354114762}
   - component: {fileID: 5849728468163846415}
   - component: {fileID: 119264948278747944}
+  - component: {fileID: 4424457143086794829}
   - component: {fileID: 1011930737000873075}
   m_Layer: 0
   m_Name: Trash1
@@ -105,10 +106,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f174f9848994c2197d95cd8aaddafef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Code.TrashFloating
-  fallSpeed: 1.5
+  fallSpeed: 0.75
   horizontalFrequency: 0.8
   horizontalMagnitude: 0.3
   rotationSpeed: 20
+--- !u!114 &4424457143086794829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4119637085166571855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bae84736d934b189d82668c695e40e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Code.TrashInteraction
+  isToxic: 0
+  pointsOnCapture: 50
+  pointsPenaltyIfNotToxic: 20
+  oilIntensity: 0.25
+  oxygenPenalty: 5
 --- !u!61 &1011930737000873075
 BoxCollider2D:
   m_ObjectHideFlags: 0

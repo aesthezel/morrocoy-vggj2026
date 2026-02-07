@@ -35,15 +35,7 @@ namespace Code
 
         private void CaptureFish()
         {
-            if (isInvasive)
-            {
-                Debug.Log($"¡Pez invasor eliminado! +{pointsAmount} puntos.");
-            }
-            else
-            {
-                Debug.Log($"¡Cuidado! Era un pez local. -{pointsAmount} puntos.");
-            }
-            
+            ScoreManager.Instance.AddScore(pointsAmount, isInvasive);
             Destroy(gameObject);
         }
 

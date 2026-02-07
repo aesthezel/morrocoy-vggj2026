@@ -76,6 +76,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1937612537971686762, guid: ee12badfbb81702ada72dc86312e5a1b, type: 3}
+    - target: {fileID: 6150674870306606977, guid: 23b613a567197f54485a272e063f1afc, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8973976059776087290, guid: 23b613a567197f54485a272e063f1afc, type: 3}
       propertyPath: m_Name
       value: Fish5 Variant
